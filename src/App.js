@@ -1,5 +1,5 @@
 import React from 'react';
-import CowClicker from './CowClicker';
+// import CowClicker from './CowClicker';
 //import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
@@ -35,5 +35,5 @@ var CowClicker = React.createClass({displayName: 'CowClicker',
 
 ReactDOM.render(
   React.createElement(CatClicker, null),
-  document.getElementById('container')
+  document.getElementById('root')
 );
